@@ -10,7 +10,7 @@ High-conversion landing page for Daphne's healing framework webinar.
 
 ## 📁 Files
 
-- **own-your-healing-webinar.html** - Main landing page (production ready)
+- **index.html** - Main landing page (production ready)
 - **own-your-healing-copy-variants.md** - Alternative headlines, CTAs, and A/B testing options
 - **own-your-healing-assets/** - Images and documentation
 
@@ -23,11 +23,28 @@ High-conversion landing page for Daphne's healing framework webinar.
 - Clean, minimalist design
 - No dependencies (pure HTML/CSS/JS)
 
-## 🚀 Quick Start
+## 🚀 Deployment
 
-1. Open `own-your-healing-webinar.html` in a browser
+**Root directory:** `/Users/abhichawla/daphnewebinar/`
+
+Deploy this entire folder to your web host. The landing page will load automatically as `index.html`.
+
+### File Structure for Deployment:
+```
+daphnewebinar/
+├── index.html
+├── own-your-healing-assets/
+│   └── images/
+│       ├── daphne-hero.jpg
+│       ├── daphne-profile.jpg
+│       └── daphne-outdoor.jpg
+└── own-your-healing-copy-variants.md
+```
+
+### Quick Test:
+1. Open `index.html` in a browser
 2. Test the registration form
-3. Deploy to your hosting provider
+3. Verify Google Meet link appears after submission
 
 ## 📊 Form Integration
 
